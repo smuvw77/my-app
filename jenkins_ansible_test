@@ -10,7 +10,7 @@ node('Ansible_Server_node'){
   
   ansible --version
   pwd
-  ansible-playbook /home/ansadmin/srini/Playbooks/filecreation.yml
+  'ansible-playbook /home/ansadmin/srini/Playbooks/filecreation.yml
   ansible-playbook /home/ansadmin/srini_roles/Playbooks/playbook_main.yaml   
    '''
    }
